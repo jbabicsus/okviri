@@ -1,0 +1,68 @@
+input{
+  border-radius: 0;
+  border: 1px solid gray;
+}
+
+
+/* cijela app*/
+
+
+
+.kartica-naslov{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.normal-text{
+  font-size: 1rem;
+}
+
+.registracija-btn{
+  background-color: yellow;
+  border-color: yellow;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.a{
+  color: black;
+  text-decoration: underline;
+  font: 15px;
+  margin-left: 100px;
+  
+}
+
+
+
+/* autentifikacija */
+
+.autentifikacija{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://wallpapercave.com/wp/wp8413230.jpg");
+
+}
+
+.autentifikacija::after{
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.kartica{
+  width: 400px;
+  box-shadow: 0 0 2px gray;
+  border-radius: 0;
+  background-color: white;
+  opacity: 1;
+}
+
+.autentifikacija .kartica-naslov{
+  background-color: rgb(248, 248, 141);
+  max-width: max-content;
+  padding: 10px 15px;
+  margin-left: -45px;
+  border-bottom-left-radius: 10px;
+  font-family: fantasy;
+  font-size: 35px;}
