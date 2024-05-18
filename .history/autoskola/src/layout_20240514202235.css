@@ -1,0 +1,39 @@
+/* layout.css */
+.main {
+    padding: 20px;
+    height: 100vh; /* Dodaj visinu na 100% na .main kako bi se osiguralo da je cijela visina iskorištena */
+}
+
+.flex {
+    display: flex;
+    height: 100%; /* Dodaj visinu na 100% na .flex kako bi se osiguralo da je cijela visina iskorištena */
+}
+
+.sidebar {
+    background-color: #005555;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    width: 250px;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Omogući .content-u da zauzme preostali prostor u .flex-u */
+}
+
+.header {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+}
+
+.body {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    flex: 1; /* Koristi flex-grow: 1 kako bi se tijelo ispunilo preostali prostor */
+}

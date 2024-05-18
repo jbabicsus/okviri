@@ -1,0 +1,46 @@
+input{
+  border-radius: 0;
+  border: 1px solid gray;
+}
+
+
+/* cijela app*/
+
+.kartica-naslov{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.normal-text{
+  font-size: 1rem;
+}
+
+.registracija-btn{
+  background-color: yellow;
+  border-color: yellow;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 3;
+}
+
+a{
+  color: black;
+  text-decoration: underline;
+  font: 15px;
+
+}
+
+
+/* autentifikacija */
+.autentifikacija{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kartica{
+  width: 400px;
+  box-shadow: 0 0 2px gray;
+  border-radius: 0;
+}
